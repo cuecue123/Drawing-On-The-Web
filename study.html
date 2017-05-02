@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Study</title>
+
+    <link rel = "stylesheet" href = "./css/styles.css" >
+    <link rel = "stylesheet" href = "./css/study.css">
+
+  </head>
+
+  <body>
+
+      <div id = "box">
+
+
+       <video id="bg-video" width="2048" height="1080" muted autoplay loop>
+          <source src="media/letters.mp4" type="video/mp4">
+        </video>
+      <div>
+
+
+      <div id = "buttons">
+
+
+          <img class = "button1" src = "./images/alien.png" width="100" height="100">
+          <img class = "button2" src = "./images/ghost.png" width="100" height="100">
+
+          <img class = "button3" src = "./images/cryingFace.png" width="100" height="100">
+
+          <img class = "button4" src = "./images/icon.png" width="100" height="100">
+
+          <img class = "boom" src = "./images/boom.png" width="760" height="500">
+          <img class = "boom1" src = "./images/boom1.png" width="760" height="500">
+
+          <img class = 'book' src = "./images/lightbulb.png" onmouseover="hover(this);" onmouseout="unhover(this);" width = "200" height = "200">
+      </div>
+
+
+
+
+
+    <div id = "container">
+
+
+      <div id="gradient"></div>
+
+
+      
+    </div>
+
+    <script>
+      function hover(element) {
+        element.setAttribute('src', './images/lightedlightbulb.png');
+        element.setAttribute('width','170');
+        element.style.cssText = "opacity: 0.9;"
+
+      }
+      function unhover(element) {
+          element.setAttribute('src', './images/lightbulb.png');
+      }
+    </script>
+
+    <script src="js/p5.min.js"></script>
+    <script src="js/cursor.js"></script>
+
+
+
+  </body>
+</html>

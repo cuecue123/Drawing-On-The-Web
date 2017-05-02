@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+p {
+  margin: 0;
+  font-size: 6em;
+  color: white;
+}
+
+#container {
+  perspective: 600px;
+  perspective-origin: center left;
+  /*z-index*/
+/**/
+}
+
+
+
+#gradient, #buttons, #divtoshow, #onme{
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+img{
+  padding: 10px;
+}
+
+
+#buttons{z-index:1000;}
+
+#gradient {z-index: 100;}
+#symbol {z-index: 200;}

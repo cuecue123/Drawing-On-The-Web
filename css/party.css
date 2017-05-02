@@ -1,0 +1,87 @@
+body{
+		background-color: black;
+		/*z-index: -100;*/
+	}
+
+	  #bg-video{
+	  	/**/
+  /*margin-top: -100px;*/
+  margin-left: -200px;
+    position: fixed;
+    top:0;
+    left:0;
+
+    z-index: -1000;
+
+  }
+
+
+  	.light{
+  		position: fixed;
+  		top:0px;
+  		left: 45%;
+  		z-index: 1000;
+
+  	}
+        .party{
+          position: fixed;
+          bottom: 0px;
+          left: 15%;
+          z-index: 100;
+        }
+
+        .female1{
+        	margin-bottom: -5px;
+        	margin-left: 10%;
+        	position: fixed;
+        	bottom: 0px;
+        	z-index: 1000;
+        	opacity: 0;
+        }
+
+        .male1{
+
+        	margin-bottom: -5px;
+        	margin-left: 30%;
+        	position: fixed;
+        	bottom: 0px;
+        	z-index: 1000;
+        	opacity: 0;
+
+        }
+
+         .male2{
+
+        	margin-bottom: -5px;
+        	margin-left: 55%;
+        	position: fixed;
+        	bottom: 0px;
+        	z-index: 1000;
+        	opacity: 0;
+
+        }
+        .party1{
+        position: fixed;
+          bottom: -20%;
+          left: 5%;
+        	z-index: 0;
+        	opacity: 0;
+        }
+
+
+    .dragme {
+        position:relative;
+        top: 0px;
+        left: 100px;
+/*        width: 270px;
+        height: 203px;*/
+        cursor: move;
+        z-index: 1000;
+        opacity: 0;
+    }
+    .button{
+      position: fixed;
+      top:0px;
+      left: 0px;
+      opacity: 0;
+    }
